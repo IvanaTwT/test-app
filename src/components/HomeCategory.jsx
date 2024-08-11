@@ -44,7 +44,7 @@ export default function HomeCategory() {
                                 <img
                                     // className="is-rounded"
                                     style={{borderRadius:"50%"}}
-                                    src={`src/assets/img/${cat.name.toLowerCase()}.jpg`}
+                                    src={`/public/assets/img/${cat.name.toLowerCase()}.jpg`}
                                     alt="Rounded image"
                                 />
                             </figure>
