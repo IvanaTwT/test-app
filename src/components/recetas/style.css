@@ -1,0 +1,41 @@
+/* styles.css */
+.ingredient-item {
+    display: flex;
+    justify-content: space-between; /* Espacio entre el contenido del strong y el span */
+    align-items: center; /* Centra verticalmente los elementos dentro del ítem */
+    margin-bottom: 0.5rem; /* Espaciado entre los ítems */
+    padding: 0.5rem 0; /* Espaciado interno de cada ítem */
+    border-bottom: 1px solid #ddd; /* Línea divisoria */
+}
+
+.ingredient-details {
+    text-align: right; /* Alinea el texto dentro del span a la derecha */
+    margin-left: auto; /* Asegura que el span esté alineado al final del contenedor flex */
+}
+
+.columna-ingredients {
+    margin: 1em;
+    border: 1px solid #248b21; /* Borde alrededor de cada ítem */
+    border-radius: 4px;
+}
+
+/* recetas categories */
+
+
+
+.category-item {
+    border: 1px solid #000; /* Borde gris claro */
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center; /* Centrando el texto */
+    font-size: 1rem; /* Tamaño de fuente */
+    cursor: pointer; /* Cambiar cursor para indicar que es clickeable */
+    min-width: 150px; /* Ancho mínimo para los elementos */
+    max-width: 200px; /* Ancho máximo para los elementos */
+}
+
+.category-item:hover {
+    background-color: #e0e0e0; /* Color de fondo al pasar el mouse */
+    transform: scale(1.05); /* Aumentar ligeramente el tamaño al pasar el mouse */
+}
+
+
